@@ -35,6 +35,7 @@ export function ProgressChallenge() {
             role="presentation"
           />
         </div>
+        <p className="text-xs text-neutral-600">Progreso: {etiquetaProgreso}</p>
 
         <input
           className="w-full border rounded px-3 py-2 focus:outline-none"
@@ -54,4 +55,3 @@ export function ProgressChallenge() {
     </section>
   );
 }
-

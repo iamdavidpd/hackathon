@@ -1,6 +1,7 @@
-import { ProgressChallenge } from '@/components/progress/ProgressChallenge';
-import { TimerChallenge } from '@/components/timer/TimerChallenge';
-import { UserFormChallenge } from '@/components/user-form/UserFormChallenge';
+import { PasswordChallenge } from '@/components/password/page';
+import { ProgressChallenge } from '@/components/progress/page';
+import { TimerChallenge } from '@/components/timer/page';
+import { UserFormChallenge } from '@/components/user-form/page';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <ProgressChallenge />
         <UserFormChallenge />
         <TimerChallenge />
+        <PasswordChallenge />
       </main>
 
     </div>
