@@ -6,7 +6,7 @@ const mini = 0;
 const maxi = 100;
 const limitar = (v: number) => Math.min(maxi, Math.max(mini, v));
 
-export function ProgressChallenge() {
+export function BarraProgreso() {
   const [porcentaje, setPorcentaje] = useState(25);
   const [valorEntrada, setValorEntrada] = useState('25');
   const [mensajeError, setMensajeError] = useState('');

@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 
-export function UserFormChallenge() {
+export function Formulario() {
   const [usuario, setUsuario] = useState('');
   const [nombre, setNombre] = useState('');
   const [edad, setEdad] = useState('');

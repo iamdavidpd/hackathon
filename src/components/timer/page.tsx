@@ -7,7 +7,7 @@ const formatearTiempo = (totalSegundos: number) => {
   return `${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
 };
 
-export function TimerChallenge() {
+export function Timer() {
   const [segundos, setSegundos] = useState(0);
   const [enMarcha, setEnMarcha] = useState(false);
   const referenciaIntervalo = useRef<ReturnType<typeof setInterval> | null>(null);
