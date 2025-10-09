@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Integrantes 
 
 Gabriel Enrique Rodriguez Pinto, ge.rodriguezp1@uniandes.edu.co
+
 Juan David Perez Diaz, jd.perezd1@uniandes.edu.co
 
 ## Getting Started
